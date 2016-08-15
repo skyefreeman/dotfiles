@@ -1,2 +1,1 @@
 # dotfiles
-Skye Freeman'
