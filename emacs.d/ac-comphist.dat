@@ -1,0 +1,576 @@
+((("notifiedUsers" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0])
+  ("newUser" .
+   [3 0 0 0 0 0 0])
+  ("sendKnownContactPushNotification" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("string=" .
+   [0 0 0 0 0 0 1])
+  ("bowie-songs-list" .
+   [2 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0])
+  ("split-string" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("shell-command-to-string" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("output" .
+   [1 0 0 0 0 0])
+  ("cdr" .
+   [2 0 0])
+  ("bowie" .
+   [2 0 0 0 1])
+  ("car" .
+   [6 0 0])
+  ("bowie-songs" .
+   [6 0 0 0 0 0 0 0 0 1 1])
+  ("itunes-search" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("itunes-play-track" .
+   [0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0])
+  ("base-string" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("format" .
+   [1 0 0 0 0 0])
+  ("track" .
+   [2 0 0 0 0])
+  ("itunes" .
+   [3 0 0 0 0 0])
+  ("artist" .
+   [2 0 0 0 0 0])
+  ("shell-command" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("search-string" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("search" .
+   [1 0 0 0 0 0])
+  ("interactive" .
+   [0 0 0 0 0 2 0 0 0 0 0])
+  ("sho-menu" .
+   [0 0 0 0 0 0 1 0])
+  ("nil" .
+   [1 0 0])
+  ("completing-read" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("load-path" .
+   [1 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("add" .
+   [1 0 0])
+  ("our" .
+   [1 0 0])
+  ("you" .
+   [1 0 0])
+  ("out" .
+   [1 0 0])
+  ("can" .
+   [1 0 0])
+  ("least" .
+   [1 0 0 0 0])
+  ("being" .
+   [3 0 0 0 0])
+  ("that" .
+   [1 0 0 0])
+  ("but" .
+   [2 0 0])
+  ("your" .
+   [1 0 0 0])
+  ("feel" .
+   [2 0 0 0])
+  ("person" .
+   [1 0 0 0 0 0])
+  ("should" .
+   [1 0 0 0 0 0])
+  ("work" .
+   [1 0 0 0])
+  ("would" .
+   [5 0 0 0 0])
+  ("Oakland" .
+   [2 0 0 0 0 0 0])
+  ("trip" .
+   [4 0 0 0])
+  ("OutVoo" .
+   [0 0 0 1 0 0])
+  ("weekly" .
+   [1 0 0 0 0 0])
+  ("hours" .
+   [1 0 0 0 0])
+  ("weekend" .
+   [2 0 0 0 0 0 0])
+  ("great" .
+   [1 0 0 0 0])
+  ("complicated" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("all" .
+   [1 0 0])
+  ("draft" .
+   [1 0 0 0 0])
+  ("first" .
+   [1 0 0 0 0])
+  ("algorithm" .
+   [1 0 0 0 0 0 0 0 1])
+  ("Magic" .
+   [1 0 0 0 0])
+  ("The" .
+   [2 0 0])
+  ("about" .
+   [2 0 0 0 0])
+  ("stuff" .
+   [2 0 0 0 0])
+  ("documents" .
+   [0 0 0 0 1 0 0 0 0])
+  ("these" .
+   [1 0 0 0 0])
+  ("going" .
+   [2 0 0 0 0])
+  ("its" .
+   [1 0 0])
+  ("what" .
+   [3 0 0 0])
+  ("have" .
+   [1 0 0 0])
+  ("the" .
+   [14 0 0])
+  ("and" .
+   [7 0 0])
+  ("universal_pods" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("echo" .
+   [1 0 0 0])
+  ("func" .
+   [1 0 0 0])
+  ("read" .
+   [1 0 0 0])
+  ("api" .
+   [0 0 1])
+  ("get_response" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("req" .
+   [1 0 0])
+  ("http" .
+   [2 0 0 0])
+  ("url" .
+   [2 0 0])
+  ("Net::HTTP::Get" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("base_url" .
+   [1 0 0 0 1 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("name-list" .
+   [2 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [6 0 0 0])
+  ("open-buffer-print-list" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("buffer-end" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("print-elements-of-list" .
+   [0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1])
+  ("switch-to-buffer-other-window" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("print" .
+   [10 0 0 0 0])
+  ("print-list" .
+   [2 0 0 0 0 1 0 0 0 0])
+  ("list" .
+   [22 0 0 0])
+  ("defun" .
+   [4 0 0 4 1])
+  ("hello" .
+   [5 0 0 0 0])
+  ("list-of-names" .
+   [0 0 0 0 3 1 0 0 0 0 0 0 0])
+  ("mapcar" .
+   [3 0 0 0 0 0])
+  ("erase-buffer" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("buffer-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("buffer-test" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("bufferp" .
+   [0 0 0 0 1 0 2])
+  ("buffer-name" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("sums" .
+   [2 0 0 0])
+  ("total_sum" .
+   [1 0 0 1 0 0 0 0 0])
+  ("arr" .
+   [1 0 0])
+  ("sum_hour_glass" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("collection" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("sum" .
+   [1 0 0])
+  ("sum_bot_row" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("middle" .
+   [0 0 1 1 0 0])
+  ("sum_top_row" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("col" .
+   [6 0 0])
+  ("origin" .
+   [1 0 0 0 0 0])
+  ("array" .
+   [1 0 0 4 0])
+  ("bold" .
+   [1 0 0 0])
+  ("boldify-names" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("other-window" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("while" .
+   [4 0 0 0 0])
+  ("goto-first-char" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("goto-char" .
+   [1 0 0 0 0 0 0 0 0])
+  ("goto-test-window" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("userFirstName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("capitalizeFirstLetter" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("string" .
+   [6 0 0 0 0 0])
+  ("Follow" .
+   [0 0 0 0 1 0])
+  ("followers" .
+   [1 0 0 0 0 0 0 0 0])
+  ("statusLevelScore" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0])
+  ("statusLevel" .
+   [1 0 0 0 0 0 0 1 0 0 1])
+  ("length" .
+   [1 0 0 0 0 0])
+  ("results" .
+   [6 0 0 0 2 1 0])
+  ("find" .
+   [1 0 0 0])
+  ("equalTo" .
+   [0 0 1 0 1 0 0])
+  ("statusQuery" .
+   [0 0 0 0 0 0 0 0 3 0 0])
+  ("StatusLevel" .
+   [0 0 2 0 2 3 3 0 0 0 1])
+  ("Query" .
+   [1 0 1 0 0])
+  ("query" .
+   [3 0 0 0 2])
+  ("extend" .
+   [2 0 0 0 0 0])
+  ("Object" .
+   [1 0 0 0 0 0])
+  ("toUser" .
+   [1 0 0 0 0 0])
+  ("get" .
+   [7 0 0])
+  ("object" .
+   [4 0 0 0 0 3])
+  ("updateStatusLevel" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("save" .
+   [2 0 0 0])
+  ("newStatusLevel" .
+   [1 0 0 0 0 1 0 1 0 1 0 0 0 0])
+  ("userObject" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ratings" .
+   [1 0 0 0 0 0 0])
+  ("ratingsPastThirtyDays" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("recent" .
+   [1 0 0 0 0 0])
+  ("totalFollowers" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("totalRating" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("determineStatusLevel" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("recentRatingsLevel" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1])
+  ("total" .
+   [2 0 0 0 0])
+  ("totalRatingsLevel" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0])
+  ("recentRatings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("else" .
+   [2 0 0 0])
+  ("recentRating" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("if" .
+   [2 1])
+  ("If" .
+   [0 2])
+  ("totalFollowersLevel" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("totalRatings" .
+   [0 0 0 0 0 0 0 1 0 0 1 0])
+  ("ratingsOrFollowersStatusLevel" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("activeNavbarColor" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("defaultNavbarColor" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("active" .
+   [1 0 0 0 0 0])
+  ("css" .
+   [2 0 0])
+  ("Sign" .
+   [1 0 0 0])
+  ("type=" .
+   [0 0 0 1 0])
+  ("input" .
+   [2 0 0 0 0])
+  ("label" .
+   [2 0 0 0 0])
+  ("inputPassword" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("for" .
+   [8 0 2])
+  ("form-signin" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("class=" .
+   [0 0 0 1 1 4])
+  ("link" .
+   [4 0 0 0])
+  ("href=" .
+   [0 0 0 0 2])
+  ("Taper" .
+   [2 0 0 0 0])
+  ("quit" .
+   [0 0 1 0])
+  ("type" .
+   [1 0 0 0])
+  ("kScreenWidth" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("printf" .
+   [0 0 0 0 0 2])
+  ("true" .
+   [0 0 1 0])
+  ("success" .
+   [0 0 0 6 1 0 1])
+  ("bool" .
+   [0 0 1 0])
+  ("NULL" .
+   [0 0 0 1])
+  ("gWindow" .
+   [0 0 0 0 0 0 1])
+  ("SDL_Window" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("import" .
+   [2 0 0 0 2 0])
+  ("Cocoa" .
+   [0 0 0 1 0])
+  ("Logs" .
+   [1 0 0 15])
+  ("LogInView" .
+   [0 0 0 1 1 0 0 0 1])
+  ("Parse" .
+   [10 0 0 2 4])
+  ("history" .
+   [0 0 0 1 0 0 0])
+  ("state" .
+   [0 0 0 0 1])
+  ("AppView" .
+   [1 0 0 0 0 0 0])
+  ("var" .
+   [24 0 0])
+  ("new" .
+   [3 0 0])
+  ("function" .
+   [9 0 0 1 12 0 0 2])
+  ("username" .
+   [4 0 0 0 4 2 4 3])
+  ("click" .
+   [1 0 0 0 0])
+  ("logIn" .
+   [4 0 0 2 0])
+  ("password" .
+   [3 0 0 0 0 3 0 3])
+  ("log" .
+   [17 0 4])
+  ("passed" .
+   [0 0 0 0 0 1])
+  ("this" .
+   [7 0 0 0])
+  ("self" .
+   [2 0 0 0])
+  ("val" .
+   [3 0 0])
+  ("User" .
+   [4 0 0 0])
+  ("user" .
+   [19 0 0 0])
+  ("error" .
+   [6 0 4 5 3])
+  ("parseLogin" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("current" .
+   [0 0 0 0 1 0 0])
+  ("set" .
+   [2 0 0])
+  ("signUp" .
+   [0 0 0 0 1 0])
+  ("console" .
+   [1 0 0 3 0 0 1])
+  ("cout" .
+   [6 0 0 0])
+  ("endl" .
+   [2 0 0 0])
+  ("num" .
+   [3 0 0])
+  ("return" .
+   [0 0 0 10 0 1])
+  ("isPrime" .
+   [0 0 1 0 0 0 0])
+  ("sqrt" .
+   [1 0 0 0])
+  ("Cloud" .
+   [0 0 2 0 0])
+  ("request" .
+   [5 0 0 2 3 0 0])
+  ("passwordCheck" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("functions" .
+   [0 0 0 0 0 0 0 0 2])
+  ("response" .
+   [0 0 0 1 1 0 1 0])
+  ("div" .
+   [9 0 1])
+  ("blur" .
+   [1 0 0 0])
+  ("20px" .
+   [1 0 0 0])
+  ("width" .
+   [0 0 0 0 1])
+  ("height" .
+   [0 0 0 1 0 0])
+  ("1px" .
+   [1 0 0])
+  ("rgba" .
+   [1 0 0 0])
+  ("h1" .
+   [1 0])
+  ("/div" .
+   [1 0 0 1])
+  ("background" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("cover" .
+   [1 0 0 0 0])
+  ("afterSave" .
+   [1 0 0 0 0 0 0 0 0])
+  ("userPFRelation" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("sendMessageRatingPushNotification" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("users" .
+   [6 0 0 0 0])
+  ("message" .
+   [1 0 0 0 0 0 0])
+  ("pushQuery" .
+   [3 0 0 0 0 0 0 0 0])
+  ("Installation" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Push" .
+   [1 0 0 2])
+  ("send" .
+   [1 0 0 0])
+  ("where" .
+   [1 0 0 0 0])
+  ("data" .
+   [6 0 0 0])
+  ("identifier" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("pushNotificationID" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("whatsMyName" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("args" .
+   [2 0 0 0])
+  ("count" .
+   [1 0 0 0 0])
+  ("new-buffer-with-shell" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("print-hello" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("global" .
+   [2 0 0 0 0 1])
+  ("target" .
+   [2 0 0 0 0 0])
+  ("test_frameworks" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("global_frameworks" .
+   [0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("tax" .
+   [2 0 0])
+  ("need" .
+   [1 0 0 0])
+  ("persist" .
+   [2 0 0 0 0 0 0])
+  ("NSLog" .
+   [0 0 1 0 1])
+  ("whats" .
+   [1 0 0 0 0])
+  ("defaultHotkeys" .
+   [0 0 0 0 0 3 0 0 0 0 0 0 0 0])
+  ("hotkey" .
+   [0 0 1 0 0 0])
+  ("window" .
+   [2 0 0 1 0 0])
+  ("frame" .
+   [3 0 0 0 0])
+  ("amount" .
+   [1 0 0 0 0 0])
+  ("moveFocusedWindow" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setFocusedWindowFrame" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("halfScreenRect" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("rect" .
+   [6 0 0 0])
+  ("screen" .
+   [3 0 0 0 0 0])
+  ("middleX" .
+   [1 0 0 0 0 0 0])
+  ("geometry" .
+   [0 0 0 0 0 1 0 0])
+  ("newRect" .
+   [0 0 0 0 1 0 0])
+  ("timer" .
+   [2 0 0 0 0])
+  ("doAfter" .
+   [1 0 0 0 1 0 0])
+  ("mouseCircle" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("usbDeviceCallback" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("usb" .
+   [1 0 0])
+  ("usbWatcher" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("start" .
+   [2 0 0 0 0])
+  ("controllerDeviceCallback" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("red" .
+   [1 0 0])
+  ("location" .
+   [2 0 0 0 0 0 0 0])
+  ("coords" .
+   [1 0 0 0 0 0])
+  ("currentCoordinates" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("pairs" .
+   [1 0 0 0 0])
+  ("availableNetworks" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("interfaces" .
+   [1 0 0 0 0 0 0 0 0 0])))
