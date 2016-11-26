@@ -1,4 +1,4 @@
-# bash_profile #
+# bash_config #
 
 # shell color customizations
 COLOR_BLUE="\[\033[0;34m\]"
