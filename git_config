@@ -1,0 +1,9 @@
+[user]
+	email = skyefreeman@icloud.com
+	name = Skye Freeman
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[alias]
+	lg = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%ci)%Creset %s' --abbrev-commit --date=relative
