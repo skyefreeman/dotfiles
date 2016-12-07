@@ -21,7 +21,7 @@ export PATH=$PATH:~/scripts
 # misc aliases
 alias emacs='open -a /Applications/Emacs.app $1'
 
-alias bashedit='emacs ~/.bash_profile'
+alias bashedit='emacs ~/dotfiles/bash_config.sh'
 alias bashload='source ~/.bash_profile'
 alias hammerspoonedit='emacs ~/.hammerspoon/init.lua'
 
@@ -67,6 +67,7 @@ alias gd='git diff '
 alias gb='git branch '
 alias gch='git checkout '
 alias gchb='git checkout -b '
+alias grc='git rebase --continue'
 alias gsl='git stash list'
 alias glg='git lg'
 alias squash='git reset --soft origin/HEAD && git commit '
