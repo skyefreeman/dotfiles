@@ -30,7 +30,7 @@ alias ll='ls -l'
 
 alias sleep='sudo shutdown -s now'
 alias purge='rm -rf'
-alias screencap='screencapture -s ~/Desktop/temp.png'
+alias screencap='screencapture -s -c'
 alias resetsim='killall \"Simulator\" && xcrun simctl erase all'
 alias resetspotlight='sudo mdutil -E /'
 alias ff='find . -name '
