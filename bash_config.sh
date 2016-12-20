@@ -22,7 +22,7 @@ export PATH=$PATH:~/scripts
 alias emacs='open -a /Applications/Emacs.app $1'
 
 alias bashedit='emacs ~/dotfiles/bash_config.sh'
-alias bashload='source ~/.bash_profile'
+alias bashload='source ~/dotfiles/bash_config.sh'
 alias hammerspoonedit='emacs ~/.hammerspoon/init.lua'
 
 alias la='ls -a'
