@@ -75,4 +75,7 @@ alias squash='git reset --soft origin/HEAD && git commit '
 alias mergetool='git mergetool -t opendiff'
 alias updatesubmodules='git submodule update --init --recursive'
 
+# hub aliases
+eval "$(hub alias -s)"
+alias gpr='git pull-request '
 # End #
