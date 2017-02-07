@@ -52,7 +52,10 @@ alias openliftoffrc='gotoliftoffrc && emacs liftoffrc'
 alias podinit='podfile.sh'
 alias newscript='~/Development/scripts/newscript.sh'
 alias serve='bundle exec jekyll serve'
-alias xcodeclean='rm -rf ~/Library/Developer/Xcode/DerivedData'
+
+alias xc_clearDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
+alias xc_clearArchives='rm -rf ~/Library/Developer/Xcode/Archives'
+alias xc_resetSimulators='killall '"Simulator"' && xcrun simctl erase all'
 
 # git aliases
 alias gplo='git pull origin '
