@@ -81,6 +81,6 @@ alias mergetool='git mergetool -t opendiff'
 alias updatesubmodules='git submodule update --init --recursive'
 
 # hub aliases
+alias gpr='hub pull-request | pbcopy'
 eval "$(hub alias -s)"
-alias gpr='git pull-request '
 # End #
