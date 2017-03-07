@@ -77,6 +77,8 @@ alias gchb='git checkout -b '
 alias grc='git rebase --continue'
 alias gsl='git stash list'
 alias glg='git lg'
+alias grec='git rebase --continue'
+alias gres='git rebase --skip'
 alias squash='git reset --soft origin/HEAD && git commit '
 
 alias mergetool='git mergetool -t opendiff'
