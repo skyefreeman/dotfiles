@@ -13,9 +13,9 @@ function parse_git_branch {
    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-#PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
+PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
 
-PS1="$COLOR_LIGHT_RED""$: $COLOR_LIGHT_GRAY"
+#PS1="$COLOR_LIGHT_RED""$: $COLOR_LIGHT_GRAY"
 
 # paths
 export PATH=$PATH:~/scripts
@@ -79,6 +79,8 @@ alias gsl='git stash list'
 alias glg='git lg'
 alias grec='git rebase --continue'
 alias gres='git rebase --skip'
+
+alias clearbranches='gb | while read branch; do gb -D $branch; done'
 alias squash='git reset --soft origin/HEAD && git commit '
 
 alias mergetool='git mergetool -t opendiff'
