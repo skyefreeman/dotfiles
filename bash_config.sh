@@ -60,6 +60,8 @@ alias serve='bundle exec jekyll serve'
 alias xc_clearDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
 alias xc_clearArchives='rm -rf ~/Library/Developer/Xcode/Archives'
 alias xc_resetSimulators='killall '"Simulator"' && xcrun simctl erase all'
+alias xc_production='sudo xcode-select -s /Applications/Xcode.app/'
+alias xc_beta='sudo xcode-select -s /Applications/Xcode-beta.app/'
 
 # git aliases
 alias gplo='git pull origin '
