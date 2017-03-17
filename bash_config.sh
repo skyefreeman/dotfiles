@@ -10,7 +10,7 @@ COLOR_WHITE="\[\033[1;37m\]"
 COLOR_LIGHT_GRAY="\[\033[0;37m\]"
 
 function parse_git_branch {
-   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
 PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
