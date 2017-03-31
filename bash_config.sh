@@ -81,6 +81,7 @@ alias gsl='git stash list'
 alias glg='git lg'
 alias grec='git rebase --continue'
 alias gres='git rebase --skip'
+alias gpr='github-pr.sh '
 
 alias clearbranches='gb | while read branch; do gb -D $branch; done'
 alias squash='git reset --soft origin/HEAD && git commit '
