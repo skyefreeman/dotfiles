@@ -13,9 +13,9 @@ function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
+#PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
 
-#PS1="$COLOR_LIGHT_RED""$: $COLOR_LIGHT_GRAY"
+PS1="$COLOR_LIGHT_RED""$: $COLOR_LIGHT_GRAY"
 
 # paths
 export PATH=$PATH:~/scripts
@@ -39,6 +39,8 @@ alias resetsim='killall \"Simulator\" && xcrun simctl erase all'
 alias resetspotlight='sudo mdutil -E /'
 alias ff='find . -name '
 alias flatten='find . -mindepth 2 -type f -exec mv -i {} . ;'
+
+alias bsync='browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html"'
 
 # goto aliases
 alias gotoscripts='cd ~/Development/scripts'
