@@ -30,7 +30,7 @@ alias bashload='source ~/dotfiles/bash_config.sh'
 alias hammerspoonedit='emacs ~/.hammerspoon/init.lua'
 
 alias la='ls -a'
-alias ll='ls -l'
+alias ll='ls -la'
 
 alias sleep='sudo shutdown -s now'
 alias purge='rm -rf'
