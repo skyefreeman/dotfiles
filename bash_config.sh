@@ -21,6 +21,7 @@ PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COL
 export PATH=$PATH:~/scripts
 export VISUAL=emacs
 export EDITOR="$VISUAL"
+export APPLE_ID="skyefreeman@icloud.com"
 
 # misc aliases
 alias emacs='open -a /Applications/Emacs.app $1'
