@@ -39,7 +39,7 @@ alias screencap='screencapture -s -c'
 alias resetsim='killall \"Simulator\" && xcrun simctl erase all'
 alias resetspotlight='sudo mdutil -E /'
 alias ff='find . -name '
-alias flatten='find . -mindepth 2 -type f -exec mv -i {} . ;'
+alias flatten='find . -mindepth 2 -type f -exec mv -i {} . '"'"';'"'"''
 
 alias bsync='browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html"'
 
