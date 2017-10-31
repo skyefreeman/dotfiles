@@ -24,7 +24,7 @@ export EDITOR="$VISUAL"
 export APPLE_ID="skyefreeman@icloud.com"
 
 # misc aliases
-alias emacs='open -a /Applications/Emacs.app $1'
+#alias emacs='open -a /Applications/Emacs.app $1'
 
 alias bashedit='emacs ~/dotfiles/bash_config.sh'
 alias bashload='source ~/dotfiles/bash_config.sh'
