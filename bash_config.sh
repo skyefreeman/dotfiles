@@ -22,6 +22,7 @@ export PATH=$PATH:~/scripts
 export VISUAL=emacs
 export EDITOR="$VISUAL"
 export APPLE_ID="skyefreeman@icloud.com"
+export GPG_TTY=$(tty)
 
 # misc aliases
 #alias emacs='open -a /Applications/Emacs.app $1'
