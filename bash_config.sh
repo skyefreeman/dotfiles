@@ -24,6 +24,14 @@ export EDITOR="$VISUAL"
 export APPLE_ID="skyefreeman@icloud.com"
 export GPG_TTY=$(tty)
 
+# nvm
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+# venmo
+export SHABU_REPO=~/dev/shabu/
+export VENMO_CDN_ASSETS_REPO=~/dev/venmo-cdn-assets
+
 # misc aliases
 #alias emacs='open -a /Applications/Emacs.app $1'
 
