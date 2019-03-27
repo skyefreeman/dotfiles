@@ -15,22 +15,12 @@ function parse_git_branch {
 
 PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
 
-#PS1="$COLOR_LIGHT_RED""$: $COLOR_LIGHT_GRAY"
-
 # paths
 export PATH=$PATH:~/scripts
 export VISUAL=emacs
 export EDITOR="$VISUAL"
 export APPLE_ID="skyefreeman@icloud.com"
 export GPG_TTY=$(tty)
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
-# venmo
-export SHABU_REPO=~/dev/shabu/
-export VENMO_CDN_ASSETS_REPO=~/dev/venmo-cdn-assets
 
 # misc aliases
 #alias emacs='open -a /Applications/Emacs.app $1'
@@ -51,12 +41,6 @@ alias ff='find . -name '
 alias flatten='find . -mindepth 2 -type f -exec mv -i {} . '"'"';'"'"''
 
 alias bsync='browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html"'
-
-# goto aliases
-alias gotoscripts='cd ~/scripts'
-alias gotoliftoffrc='cd /usr/local/Cellar/liftoff/1.6.0/defaults'
-alias gotodesktop='cd ~/Desktop'
-alias gotoframeworks='cd /Library/Frameworks'
 
 # open aliases
 alias openx='open *.xcodeproj'
