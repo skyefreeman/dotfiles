@@ -1,0 +1,82 @@
+
+############# Gmail account
+IMAPAccount gmail
+Host imap.gmail.com
+User skyekingfreeman@gmail.com
+PassCmd "security find-generic-password -a gmail -w"
+SSLType IMAPS
+CertificateFile /usr/local/etc/openssl/cert.pem
+AuthMechs PLAIN
+
+# Remote Storage
+IMAPStore gmail-remote
+Account gmail
+
+# Local storage
+MaildirStore gmail-local
+Subfolders Verbatim
+Path ~/.mail/gmail/
+Inbox ~/.mail/gmail/Inbox
+
+# Channels
+Channel gmail
+Master :gmail-remote:
+Slave :gmail-local:
+Patterns *
+Create Both
+SyncState *
+
+
+############# Affirm account
+# IMAPAccount affirm
+# Host imap.gmail.com
+# User skye.freeman@affirm.com
+# PassCmd "security find-generic-password -a affirm -w"
+# SSLType IMAPS
+# CertificateFile /usr/local/etc/openssl/cert.pem
+# AuthMechs PLAIN
+
+# # Remote Storage
+# IMAPStore affirm-remote
+# Account affirm
+
+# # Local storage
+# MaildirStore affirm-local
+# Subfolders Verbatim
+# Path ~/.mail/affirm/
+# Inbox ~/.mail/affirm/Inbox
+
+# # Channels
+# Channel affirm
+# Master :affirm-remote:
+# Slave :affirm-local:
+# Patterns *
+# Create Both
+# SyncState *
+
+############## iCloud account
+IMAPAccount icloud
+Host imap.mail.me.com
+User skyefreeman
+PassCmd "security find-generic-password -a icloud -w"
+SSLType IMAPS
+CertificateFile /usr/local/etc/openssl/cert.pem
+AuthMechs PLAIN
+
+# iCloud Remote Storage
+IMAPStore icloud-remote
+Account icloud
+
+# iCloud Local storage
+MaildirStore icloud-local
+Subfolders Verbatim
+Path ~/.mail/icloud/
+Inbox ~/.mail/icloud/Inbox
+
+# iCloud Channels
+Channel icloud
+Master :icloud-remote:
+Slave :icloud-local:
+Patterns *
+Create Both
+SyncState *
