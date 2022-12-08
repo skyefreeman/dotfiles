@@ -20,8 +20,8 @@ Inbox ~/.mail/gmail/Inbox
 
 # Channels
 Channel gmail
-Master :gmail-remote:
-Slave :gmail-local:
+Far :gmail-remote:
+Near :gmail-local:
 Patterns *
 Create Both
 SyncState *
@@ -48,8 +48,8 @@ SyncState *
 
 # # Channels
 # Channel affirm
-# Master :affirm-remote:
-# Slave :affirm-local:
+# Far :affirm-remote:
+# Near :affirm-local:
 # Patterns *
 # Create Both
 # SyncState *
@@ -75,8 +75,8 @@ Inbox ~/.mail/icloud/Inbox
 
 # iCloud Channels
 Channel icloud
-Master :icloud-remote:
-Slave :icloud-local:
+Far :icloud-remote:
+Near :icloud-local:
 Patterns *
 Create Both
 SyncState *

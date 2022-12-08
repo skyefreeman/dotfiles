@@ -16,7 +16,7 @@ function parse_git_branch {
 PS1="$COLOR_LIGHT_GREEN""Dir: $COLOR_LIGHT_RED\w "$COLOR_LIGHT_GREEN"Branch:$COLOR_LIGHT_RED\$(parse_git_branch) $COLOR_WHITE\$ $COLOR_WHITE"
 
 # paths
-export PATH=$PATH:~/scripts
+export PATH=$PATH:~/scripts:~/.roswell/bin:
 export VISUAL=emacs
 export EDITOR="$VISUAL"
 export APPLE_ID="skyefreeman@icloud.com"
@@ -84,5 +84,14 @@ alias squash='git reset --soft origin/HEAD && git commit '
 
 alias mergetool='git mergetool -t opendiff'
 alias updatesubmodules='git submodule update --init --recursive'
+
+# Gryffindor + SwiftStarterKits
+alias gryffindor='ssh skye@45.79.145.155'
+
+alias ssk_output='journalctl --user -u swiftstarterkits.com.service -e | grep -v "uptimerobot.com"'
+alias ssk_output_follow='journalctl --user -u swiftstarterkits.com.service -fe | grep -v "uptimerobot.com"'
+alias ssk_status='systemctl --user status swiftstarterkits.com.service'
+alias ssk_restart='systemctl --user restart swiftstarterkits.com.service'
+alias ssk_enable='systemctl --user daemon-reload && systemctl --user enable swiftstarterkits.com.service'
 
 # End #
